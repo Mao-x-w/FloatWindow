@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffff"
+        >
+
+        <ImageView
+            android:id="@+id/click_button_top"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/click_button"
+            />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/simulate_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模拟点击"
+            />
+
+        <Button
+            android:id="@+id/simulate_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <FrameLayout
+        android:id="@+id/bottom_root"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <ImageView
+            android:id="@+id/click_button_bottom"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/click_button"
+            />
+
+    </FrameLayout>
+
+
+</LinearLayout>
