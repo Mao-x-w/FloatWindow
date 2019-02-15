@@ -2,7 +2,7 @@
 
 通过手机顶部区域模拟点击手机底部区域
 
-# ![image](https://github.com/Mao-x-w/KotlinPlayer/blob/HEAD/introduce/3.gif) ![image](https://github.com/Mao-x-w/KotlinPlayer/blob/HEAD/introduce/4.gif)
+# ![image](https://github.com/Mao-x-w/FloatWindow/blob/HEAD/introduce/1.gif)
 
 前段时间手机摔了一下，手机底部区域点击没有反应了，换一块屏幕得好几百大洋，就打算先凑合用一段时间再换新手机了。
 可是，底部区域不能点击用着实在蓝瘦。
